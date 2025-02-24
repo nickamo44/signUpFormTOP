@@ -4,6 +4,11 @@ body{
     margin: 0;
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/Norse-Bold.otf);
+}
+
 .everything{
     display: flex;
     height: 650px;
@@ -31,9 +36,11 @@ body{
     height: 100px;
 }
 
-h1{
+.ODIN{
+    margin-top: 85px;
     color: white;
     font-size: 4rem;
+    font-family: Norse-Bold;
 }
 
 #logo{
